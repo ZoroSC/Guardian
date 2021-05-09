@@ -8,7 +8,7 @@ exports.run = async(client, message, args, tools) => {
   
   let removals = client.db.get(`userRemovals_${message.guild.id}`) || [];
   let bans = removals.filter(r => r.type === 'guildMemberBan');
-  let msg = '';
+  let msg = ''; 
   
   if (!bans || bans.length === 0) {
    
