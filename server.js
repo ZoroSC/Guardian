@@ -1,7 +1,7 @@
 // Require Packages
 const Discord = require('discord.js'),
     client = new Discord.Client();
-
+ 
 // Extension Variables
 client.prefix = 'g!';
 client.ownerID = '144645791145918464';
